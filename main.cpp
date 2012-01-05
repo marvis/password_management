@@ -146,7 +146,7 @@ int main(int argc, char * argv[])
 
 		cout<<"choose [1] : ";
 		cin>>i;
-		if(i <= 0 || i >= lines.size()) i = 1;
+		if(i <= 0 || i > lines.size()) i = 1;
 		cout<<lines[i-1]<<endl;
 		return 0;
 	}
